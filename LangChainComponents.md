@@ -6,7 +6,7 @@
   - **Language Models (LLMs):** Generate and understand text.  
   - **Embedding Models:** Convert text into vector representations (used in semantic search, similarity, and retrieval).  
 
----
+
 
 ### 2. **Prompts**  
 - Define **how you communicate with models**.  
@@ -16,7 +16,7 @@
   - **Role-based prompts** (system, user, assistant).  
   - **Few-shot prompting** to provide examples and guide model behavior.  
 
----
+
 
 ### 3. **Chains**  
 - A way to **connect multiple components together** into a pipeline.  
@@ -26,7 +26,7 @@
   - **Parallel Chains** (multiple tasks at once).  
   - **Conditional Chains** (flow changes based on conditions).  
 
----
+
 
 ### 4. **Indexes**  
 - Help connect LLMs to **external knowledge sources**.  
@@ -37,7 +37,7 @@
   3. **Vector Store** (to store embeddings efficiently).  
   4. **Retriever** (to fetch relevant context when needed).  
 
----
+
 
 ### 5. **Memory**  
 - Since LLM API calls are **stateless**, memory enables **contextual conversations**.  
@@ -47,7 +47,7 @@
   - **ConversationSummaryMemory:** Summarizes old context to keep conversations manageable.  
   - **Custom Memory:** Developer-defined for specific use cases.  
 
----
+
 
 ### 6. **Agents**  
 - Go beyond static chains by adding **reasoning and decision-making**.  
@@ -57,9 +57,8 @@
   - **Chain-of-thought reasoning agents.**  
   - Custom-built task-specific agents.  
 
----
 
-✨ In short:  
+In short:  
 - **Models** = brains  
 - **Prompts** = instructions  
 - **Chains** = pipelines  
